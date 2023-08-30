@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="12AF0EFB-CC11-86A2-6151-00B890FA0B59" schemaObject="0268AA79-6ADE-FF80-3C8D-297D5AB87E22" name="MEMBER">
+<sourceConnName>cafe</sourceConnName>
+<sourceObjSchema>CAFE</sourceObjSchema>
+<sourceObjName>MEMBER</sourceObjName>
+<createdBy>study02</createdBy>
+<createdTime>2023-08-25 07:31:32 UTC</createdTime>
+<ownerDesignName>02</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USERID" id="87C59633-93B5-58C4-D403-8603929A188F">
+<sourceConnName>cafe</sourceConnName>
+<sourceObjSchema>MEMBER</sourceObjSchema>
+<sourceObjName>USERID</sourceObjName>
+<createdBy>study02</createdBy>
+<createdTime>2023-08-25 07:31:32 UTC</createdTime>
+<ownerDesignName>02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USERPASSWORD" id="40CF61E4-5B8B-49EF-D8D4-556B6D89957C">
+<sourceConnName>cafe</sourceConnName>
+<sourceObjSchema>MEMBER</sourceObjSchema>
+<sourceObjName>USERPASSWORD</sourceObjName>
+<createdBy>study02</createdBy>
+<createdTime>2023-08-25 07:31:32 UTC</createdTime>
+<ownerDesignName>02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USERNAME" id="B2FABCC9-80A8-4790-11D5-4503FC08C1B3">
+<sourceConnName>cafe</sourceConnName>
+<sourceObjSchema>MEMBER</sourceObjSchema>
+<sourceObjName>USERNAME</sourceObjName>
+<createdBy>study02</createdBy>
+<createdTime>2023-08-25 07:31:32 UTC</createdTime>
+<ownerDesignName>02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGIDATE" id="86D53645-C51D-03E0-E726-09BC3074D31D">
+<sourceConnName>cafe</sourceConnName>
+<sourceObjSchema>MEMBER</sourceObjSchema>
+<sourceObjName>REGIDATE</sourceObjName>
+<createdBy>study02</createdBy>
+<createdTime>2023-08-25 07:31:32 UTC</createdTime>
+<ownerDesignName>02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C1C0F9D9-81A1-BA53-64D2-68DC7973E175" schemaObject="0268AA79-6ADE-FF80-3C8D-297D5AB87E22" name="MEMBER_PK">
+<sourceConnName>cafe</sourceConnName>
+<sourceObjSchema>CAFE</sourceObjSchema>
+<sourceObjName>SYS_C008649</sourceObjName>
+<createdBy>study02</createdBy>
+<createdTime>2023-08-25 07:31:32 UTC</createdTime>
+<ownerDesignName>02</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87C59633-93B5-58C4-D403-8603929A188F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

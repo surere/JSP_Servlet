@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="MEMBER" directorySegmentName="seg_0" id="12AF0EFB-CC11-86A2-6151-00B890FA0B59">
+<createdBy>study02</createdBy>
+<createdTime>2023-08-25 07:31:32 UTC</createdTime>
+<ownerDesignName>02</ownerDesignName>
+<schemaObject>0268AA79-6ADE-FF80-3C8D-297D5AB87E22</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>70028A30-A269-C448-516D-2771AE207A5B</segment>
+<tableSpace>22C3D4CE-4686-3CF3-B1F2-A569C5963217</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="USERPASSWORD" id="40CF61E4-5B8B-49EF-D8D4-556B6D89957C">
+<createdBy>study02</createdBy>
+<createdTime>2023-08-25 07:31:32 UTC</createdTime>
+<ownerDesignName>02</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REGIDATE" id="86D53645-C51D-03E0-E726-09BC3074D31D">
+<createdBy>study02</createdBy>
+<createdTime>2023-08-25 07:31:32 UTC</createdTime>
+<ownerDesignName>02</ownerDesignName>
+<defaultValue>sysdate</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="USERID" id="87C59633-93B5-58C4-D403-8603929A188F">
+<createdBy>study02</createdBy>
+<createdTime>2023-08-25 07:31:32 UTC</createdTime>
+<ownerDesignName>02</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USERNAME" id="B2FABCC9-80A8-4790-11D5-4503FC08C1B3">
+<createdBy>study02</createdBy>
+<createdTime>2023-08-25 07:31:32 UTC</createdTime>
+<ownerDesignName>02</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MEMBER_PK" id="C1C0F9D9-81A1-BA53-64D2-68DC7973E175">
+<createdBy>study02</createdBy>
+<createdTime>2023-08-25 07:31:33 UTC</createdTime>
+<ownerDesignName>02</ownerDesignName>
+<schemaObject>0268AA79-6ADE-FF80-3C8D-297D5AB87E22</schemaObject>
+<segment>C4198E76-D4C4-A7AD-09BA-1D9579A804F8</segment>
+<tableSpace>22C3D4CE-4686-3CF3-B1F2-A569C5963217</tableSpace>
+<indexSegment>C4198E76-D4C4-A7AD-09BA-1D9579A804F8</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

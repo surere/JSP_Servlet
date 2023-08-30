@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="REPLY" directorySegmentName="seg_0" id="B5E378BB-AC7A-6D95-33CF-51F52D8A8B07">
+<createdBy>study02</createdBy>
+<createdTime>2023-08-25 07:31:32 UTC</createdTime>
+<ownerDesignName>02</ownerDesignName>
+<schemaObject>0268AA79-6ADE-FF80-3C8D-297D5AB87E22</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>70028A30-A269-C448-516D-2771AE207A5B</segment>
+<tableSpace>22C3D4CE-4686-3CF3-B1F2-A569C5963217</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="REPLYAVAILABLE" id="19DA4E32-B473-3ACE-6535-12E23CE71748">
+<createdBy>study02</createdBy>
+<createdTime>2023-08-25 07:31:32 UTC</createdTime>
+<ownerDesignName>02</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USERID" id="290502CB-BB87-E770-C07C-6E653F237921">
+<createdBy>study02</createdBy>
+<createdTime>2023-08-25 07:31:32 UTC</createdTime>
+<ownerDesignName>02</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REPLYCONTENT" id="36D6B9D3-7AAF-9C51-4A38-D06A2FAACC71">
+<createdBy>study02</createdBy>
+<createdTime>2023-08-25 07:31:32 UTC</createdTime>
+<ownerDesignName>02</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BBSID" id="5828BBBB-B011-EF3D-835C-DBA08D887803">
+<createdBy>study02</createdBy>
+<createdTime>2023-08-25 07:31:32 UTC</createdTime>
+<ownerDesignName>02</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REPLYID" id="B056893A-4177-B306-8BA4-255EBBCDC73C">
+<createdBy>study02</createdBy>
+<createdTime>2023-08-25 07:31:32 UTC</createdTime>
+<ownerDesignName>02</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="REPLY_PK" id="590C9029-CCC8-53C3-09B7-C0AF3AE31F82">
+<createdBy>study02</createdBy>
+<createdTime>2023-08-25 07:31:33 UTC</createdTime>
+<ownerDesignName>02</ownerDesignName>
+<schemaObject>0268AA79-6ADE-FF80-3C8D-297D5AB87E22</schemaObject>
+<segment>C4198E76-D4C4-A7AD-09BA-1D9579A804F8</segment>
+<tableSpace>22C3D4CE-4686-3CF3-B1F2-A569C5963217</tableSpace>
+<indexSegment>C4198E76-D4C4-A7AD-09BA-1D9579A804F8</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

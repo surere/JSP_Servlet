@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5E378BB-AC7A-6D95-33CF-51F52D8A8B07" schemaObject="0268AA79-6ADE-FF80-3C8D-297D5AB87E22" name="REPLY">
+<sourceConnName>cafe</sourceConnName>
+<sourceObjSchema>CAFE</sourceObjSchema>
+<sourceObjName>REPLY</sourceObjName>
+<createdBy>study02</createdBy>
+<createdTime>2023-08-25 07:31:32 UTC</createdTime>
+<ownerDesignName>02</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USERID" id="290502CB-BB87-E770-C07C-6E653F237921">
+<sourceConnName>cafe</sourceConnName>
+<sourceObjSchema>REPLY</sourceObjSchema>
+<sourceObjName>USERID</sourceObjName>
+<createdBy>study02</createdBy>
+<createdTime>2023-08-25 07:31:32 UTC</createdTime>
+<ownerDesignName>02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPLYID" id="B056893A-4177-B306-8BA4-255EBBCDC73C">
+<sourceConnName>cafe</sourceConnName>
+<sourceObjSchema>REPLY</sourceObjSchema>
+<sourceObjName>REPLYID</sourceObjName>
+<createdBy>study02</createdBy>
+<createdTime>2023-08-25 07:31:32 UTC</createdTime>
+<ownerDesignName>02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPLYCONTENT" id="36D6B9D3-7AAF-9C51-4A38-D06A2FAACC71">
+<sourceConnName>cafe</sourceConnName>
+<sourceObjSchema>REPLY</sourceObjSchema>
+<sourceObjName>REPLYCONTENT</sourceObjName>
+<createdBy>study02</createdBy>
+<createdTime>2023-08-25 07:31:32 UTC</createdTime>
+<ownerDesignName>02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BBSID" id="5828BBBB-B011-EF3D-835C-DBA08D887803">
+<sourceConnName>cafe</sourceConnName>
+<sourceObjSchema>REPLY</sourceObjSchema>
+<sourceObjName>BBSID</sourceObjName>
+<createdBy>study02</createdBy>
+<createdTime>2023-08-25 07:31:32 UTC</createdTime>
+<ownerDesignName>02</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPLYAVAILABLE" id="19DA4E32-B473-3ACE-6535-12E23CE71748">
+<sourceConnName>cafe</sourceConnName>
+<sourceObjSchema>REPLY</sourceObjSchema>
+<sourceObjName>REPLYAVAILABLE</sourceObjName>
+<createdBy>study02</createdBy>
+<createdTime>2023-08-25 07:31:32 UTC</createdTime>
+<ownerDesignName>02</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="590C9029-CCC8-53C3-09B7-C0AF3AE31F82" schemaObject="0268AA79-6ADE-FF80-3C8D-297D5AB87E22" name="REPLY_PK">
+<sourceConnName>cafe</sourceConnName>
+<sourceObjSchema>CAFE</sourceObjSchema>
+<sourceObjName>SYS_C008665</sourceObjName>
+<createdBy>study02</createdBy>
+<createdTime>2023-08-25 07:31:32 UTC</createdTime>
+<ownerDesignName>02</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="290502CB-BB87-E770-C07C-6E653F237921"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

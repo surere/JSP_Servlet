@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="0268AA79-6ADE-FF80-3C8D-297D5AB87E22" name="CAFE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.SchemaObject" propertyParentId="5B5CB5D7-578F-A997-EAB3-6764D02D6105" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="BE1F509E-5F79-5D17-931C-94BA3FBB82F7" name="BBS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="5B5CB5D7-578F-A997-EAB3-6764D02D6105" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="12AF0EFB-CC11-86A2-6151-00B890FA0B59" name="MEMBER" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="5B5CB5D7-578F-A997-EAB3-6764D02D6105" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="B5E378BB-AC7A-6D95-33CF-51F52D8A8B07" name="REPLY" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="5B5CB5D7-578F-A997-EAB3-6764D02D6105" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="F1D316B1-C79F-690C-8CC1-B9427DB0AF4A" name="USER1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="5B5CB5D7-578F-A997-EAB3-6764D02D6105" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="02" id="3CFF78BA-01CF-4A34-4AD0-49D1FE5A43A5" version="3.5">
+<createdBy>study02</createdBy>
+<createdTime>2023-08-25 07:22:34 UTC</createdTime>
+<ownerDesignName>02</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3CFF78BA-01CF-4A34-4AD0-49D1FE5A43A5</designId>
+</OSDM_Design>

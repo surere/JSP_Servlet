@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE1F509E-5F79-5D17-931C-94BA3FBB82F7" schemaObject="0268AA79-6ADE-FF80-3C8D-297D5AB87E22" name="BBS">
+<sourceConnName>cafe</sourceConnName>
+<sourceObjSchema>CAFE</sourceObjSchema>
+<sourceObjName>BBS</sourceObjName>
+<createdBy>study02</createdBy>
+<createdTime>2023-08-25 07:31:32 UTC</createdTime>
+<ownerDesignName>02</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BBSID" id="E73EA577-6179-A017-FF41-1BD90A70CA8C">
+<sourceConnName>cafe</sourceConnName>
+<sourceObjSchema>BBS</sourceObjSchema>
+<sourceObjName>BBSID</sourceObjName>
+<createdBy>study02</createdBy>
+<createdTime>2023-08-25 07:31:32 UTC</createdTime>
+<ownerDesignName>02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BBSTITLE" id="D0E173B5-60F6-5C40-2644-48E5266DE978">
+<sourceConnName>cafe</sourceConnName>
+<sourceObjSchema>BBS</sourceObjSchema>
+<sourceObjName>BBSTITLE</sourceObjName>
+<createdBy>study02</createdBy>
+<createdTime>2023-08-25 07:31:32 UTC</createdTime>
+<ownerDesignName>02</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USERID" id="C0B70127-048F-7E80-A6CB-D13211C0EDD3">
+<sourceConnName>cafe</sourceConnName>
+<sourceObjSchema>BBS</sourceObjSchema>
+<sourceObjName>USERID</sourceObjName>
+<createdBy>study02</createdBy>
+<createdTime>2023-08-25 07:31:32 UTC</createdTime>
+<ownerDesignName>02</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BBSDATE" id="047DE47C-4A8E-F81D-86BE-C78350B0A235">
+<sourceConnName>cafe</sourceConnName>
+<sourceObjSchema>BBS</sourceObjSchema>
+<sourceObjName>BBSDATE</sourceObjName>
+<createdBy>study02</createdBy>
+<createdTime>2023-08-25 07:31:32 UTC</createdTime>
+<ownerDesignName>02</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BBSCONTENT" id="C33DB50E-2879-4877-A988-42E1E05AEB0B">
+<sourceConnName>cafe</sourceConnName>
+<sourceObjSchema>BBS</sourceObjSchema>
+<sourceObjName>BBSCONTENT</sourceObjName>
+<createdBy>study02</createdBy>
+<createdTime>2023-08-25 07:31:32 UTC</createdTime>
+<ownerDesignName>02</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2048 BYTE</dataTypeSize>
+<ownDataTypeParameters>2048 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BBSAVAILABLE" id="73280BAE-B6C7-9B4D-2AD6-89B7C4E52F51">
+<sourceConnName>cafe</sourceConnName>
+<sourceObjSchema>BBS</sourceObjSchema>
+<sourceObjName>BBSAVAILABLE</sourceObjName>
+<createdBy>study02</createdBy>
+<createdTime>2023-08-25 07:31:32 UTC</createdTime>
+<ownerDesignName>02</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C46CE26-0423-6C9C-E545-E00FBFF8E6C6" name="BBS_PK">
+<sourceConnName>cafe</sourceConnName>
+<sourceObjSchema>CAFE</sourceObjSchema>
+<sourceObjName>BBS_PK</sourceObjName>
+<createdBy>study02</createdBy>
+<createdTime>2023-08-25 07:31:33 UTC</createdTime>
+<ownerDesignName>02</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0B70127-048F-7E80-A6CB-D13211C0EDD3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E231C66-A59B-1FFB-C7F7-F626AD78088D" schemaObject="0268AA79-6ADE-FF80-3C8D-297D5AB87E22" name="BBS_PK">
+<sourceConnName>cafe</sourceConnName>
+<sourceObjSchema>CAFE</sourceObjSchema>
+<sourceObjName>BBS_PK</sourceObjName>
+<createdBy>study02</createdBy>
+<createdTime>2023-08-25 07:31:32 UTC</createdTime>
+<ownerDesignName>02</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E73EA577-6179-A017-FF41-1BD90A70CA8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
